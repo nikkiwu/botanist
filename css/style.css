@@ -1,0 +1,268 @@
+/*--mainbodyhtml--*/
+
+*{
+    font-family: 'Quicksand', sans-serif;
+
+
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+
+
+
+}
+
+
+.title{
+    position: relative;
+    background: url("https://www.botanistrestaurant.com/wp-content/uploads/2017/03/Fairmont_Botanist_0691.jpg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+
+.title .logo{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:rgba(0,0,0,0.7);
+
+}
+
+
+.vertical {
+    opacity: 1;
+    position:absolute;
+    top: 10px;
+    right: 55%;
+    margin-right:-48px;
+    margin-bottom:0;
+    white-space: nowrap;
+    -webkit-transform: rotate(270deg);
+    -webkit-transform-origin: right top;
+    -moz-transform: rotate(270deg);
+    -moz-transform-origin: right top;
+    -ms-transform: rotate(270deg);
+    -ms-transform-origin: right top;
+    -o-transform: rotate(270deg);
+    -o-transform-origin: right top;
+    transform: rotate(270deg);
+    transform-origin: right top;
+    color: #996f32;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+
+
+/*-CLOCK--*/
+
+
+
+.clock{
+    position: absolute;
+    bottom: 4%;
+    right: 8%;
+    font-size: 30px;
+    color: black;
+
+
+}
+
+/*--quote--*/
+
+.quote{
+    position: absolute;
+    bottom: 70%;
+    right: 8%;
+    font-style: italic;
+    font-size: 20px;
+}
+
+/*-movingnav-*/
+
+.menu {
+    position:fixed;
+    top:10%;
+    left:-40px;
+    z-index:100;
+
+}
+
+.menu li {
+    list-style:none;
+    display:block;
+    margin-bottom: 3em;
+    margin-left:0;
+    padding:10px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    text-align:center;
+    width:140px;
+    cursor:pointer;
+    border: solid black 2px;
+    background: rgba(0,0,0,0.7);
+
+}
+
+
+.menu li:hover{
+    background: #ECBFB0;
+}
+
+.menu li.active {
+    background-color: #2B4343;
+    cursor:default;
+}
+
+.menu li a {
+    text-decoration:none;
+    color: white;
+    text-transform: uppercase;
+}
+
+/*---page contents--*/
+
+.page {
+    position:relative;
+    background: lightgray;
+    width:70%;
+    height:100%;
+    position:fixed;
+    left:-70%;
+    overflow:hidden;
+    z-index:30;
+}
+
+.page-content {
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:10%;
+    right:15%;
+    color:#fff;
+    overflow:auto;
+}
+
+
+/*--history--*/
+.page1{
+    background: url("https://www.botanistrestaurant.com/wp-content/uploads/2017/03/DrinkSection.jpg") no-repeat center;
+background-size: cover;
+    height: 100%;
+
+}
+
+.page-content-1{
+    background: #ECBFB0;
+    height: 100%;
+    width: 40%;
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 100px 10px 10px 10px;
+}
+
+
+.page-content-1 img{
+    position: absolute;
+    bottom: 0;
+    right: 12%;
+}
+/*--space--*/
+
+.page2{
+    background: url("https://www.botanistrestaurant.com/wp-content/uploads/2017/03/Fairmont_Botanist_dining2.jpg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+
+
+.page-content-2{
+    background: #2B4343;
+    height: 100%;
+    width: 40%;
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+/*--menu---*/
+
+.page3{
+    background: url("https://www.botanistrestaurant.com/wp-content/uploads/2017/03/botanist-beets-2500x1920_OptforWeb.jpg") no-repeat center;
+    background-size: cover;
+    height: 100%;
+}
+
+
+.page-content-3{
+    background: #ECBFB0;
+    height: 100%;
+    width: 40%;
+    float: right;
+    font-size: small;
+
+}
+
+.menucontainer{
+    padding: 10px;
+    color: ##4D4D4D;
+}
+
+.menucontainer h2{
+    text-align: center;
+}
+
+.menucontainer li{
+    padding: 10px;
+}
+
+
+
+
+/*---map--*/
+
+
+.page4{
+    background: url("https://www.botanistrestaurant.com/wp-content/uploads/2017/04/Fairmont_Botanist_piano2.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.page-content-4{
+    background: #ECBFB0;
+    height: 100%;
+    width: 40%;
+    float: right;
+    color: white;
+    text-align: center;
+    font-size: small;
+
+}
+
+iframe{
+    height: 55%;
+    width: 100%;
+}
+
+.contactlist{
+    position: absolute;
+    bottom: 17%;
+    right: 1%;
+    color: white;
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.page-content-4 img{
+    position: absolute;
+    bottom: 5%;
+    right: 9%;
+}
